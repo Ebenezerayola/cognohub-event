@@ -4,8 +4,8 @@ import style from './home.module.css';
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-
-
+import { FcAlarmClock } from "react-icons/fc";
+import { FcCalendar } from "react-icons/fc";
 
 
 export default function Home(){
@@ -35,6 +35,9 @@ export default function Home(){
 
 Get to meet experienced Techies to advice you on how and where to get started.
                         </p>
+                        <div className="flex items-center justify-between flex-wrap">
+                            <p className="w-fill flex p-3 pl-3 bg-gray-100 hover:bg-gray-200 rounded-lg"><FcAlarmClock className="mx-3 mt-2"/> <span className="text-xl" style={{color:"#074585"}}>11am</span><span className="mx-3 text-xl">/</span><FcCalendar className="mx-3 mt-2"/> <span className="text-xl" style={{color:"#074585"}}>26th March, 2022</span></p>
+                        </div>
                         <div className="inline-block shadow mt-5 mb-5">
                             <a href="https://t.me/cognohub" className="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-indigo-500 font-medium border border-transparent rounded-sm" style={{backgroundColor:"#074585", color:"#ffffff"}}>Join Now</a>
                         </div>
