@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import style from './home.module.css';
 import { FaFacebookF } from "react-icons/fa";
@@ -12,7 +12,7 @@ export default function Home(){
    
     return(
         <div className="flex flex-col">
-            <nav className="flex items-center justify-between flex-wrap lg:px-30 px-5">
+            <nav className="flex items-center justify-between flex-wrap lg:px-32 px-5">
                 <Link exact to="/" className={style.logo}>
                     <img src="/images/cognohub.svg" alt="" />
                 </Link>
