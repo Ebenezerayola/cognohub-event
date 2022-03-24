@@ -31,7 +31,7 @@ export default function Home(){
                             <span className="block lg:text-7xl md:text-9xl font-semibold" style={{color:"#074585"}}>Where do I start from?</span>
                         </h2>
                         <p class="text-gray-300 mt-5" style={{color:"#000000"}}>
-                        Are you interested in Tech or plannig to change carrer? But you don't kknow where to start from or how to switch seamlessly?
+                        Are you interested in Tech or plannig to change career? But you don't know where to start from or how to switch seamlessly?
 
 Get to meet experienced Techies to advice you on how and where to get started.
                         </p>
