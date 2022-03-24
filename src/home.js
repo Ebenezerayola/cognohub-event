@@ -17,14 +17,14 @@ export default function Home(){
                     <img src="/images/cognohub.svg" alt="" />
                 </Link>
                 
-                <div className='text-sm m'>
+                {/* <div className='text-sm m'>
                     <Link to="/" className="inline-block mx-2"><FaFacebookF color="#074585" /></Link>
                     <Link to="/"className="inline-block mx-2"><FaTwitter color="#074585"/></Link>
                     <Link to="/" className="inline-block mx-2"><FaLinkedinIn color="#074585" /></Link>
-                </div>
+                </div> */}
             </nav>
             <div>
-                <div className="lg:grid lg:grid-cols-2">
+                <div className="lg:grid md:grid md:grid-cols-2 lg:grid-cols-2">
                     <div className="pt-20 px-10 lg:px-0 max-w-3xl lg:max-w-md mx-auto">
                         <h2 className="text-4xl tracking-tight font-extrabold text-gray-100">
                             <span className="block text-xl font-semibold" style={{color:"#f5b759"}}>I'M INTERESTED IN TECH,</span>
