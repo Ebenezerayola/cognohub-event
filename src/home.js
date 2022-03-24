@@ -30,10 +30,9 @@ export default function Home(){
                             <span className="block text-xl font-semibold" style={{color:"#f5b759"}}>I'M INTERESTED IN TECH,</span>
                             <span className="block lg:text-7xl md:text-9xl font-semibold" style={{color:"#074585"}}>Where do I start from?</span>
                         </h2>
-                        <p class="text-gray-300 mt-5" style={{color:"#000000"}}>
-                        Are you interested in Tech or plannig to change career? But you don't know where to start from or how to switch seamlessly?
+                        <p class="text-gray-300 mt-5" style={{color:"#000000"}}>Are you new in the tech space, planning to get into the space, make a career switch or simply want to see other amazing opportunities in tech?
 
-Get to meet experienced Techies to advice you on how and where to get started.
+Get the industry knowledge and guidance you need to get started the right and effective way.
                         </p>
                         <div className="flex items-center justify-between flex-wrap">
                             <p className="w-fill flex pt-3 bg-gray-100 hover:bg-gray-200 rounded-lg"><FcAlarmClock  className="mx-3 lg:mt-2 mt-1"/> <span className="lg:text-xl" style={{color:"#074585"}}>11am</span><span className="mx-3 text-xl">/</span><FcCalendar className="mx-3 lg:mt-2 mt-1"/> <span className="lg:text-xl" style={{color:"#074585"}}>26th March, 2022</span></p>
